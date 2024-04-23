@@ -16,5 +16,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Log issue details
-        run: echo ${{ toJSON(github) }}
+        run: echo "${{ toJSON(github) }}"
 
